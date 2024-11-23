@@ -8,34 +8,49 @@
 	<title>Assignment 08 | CIS2B</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--linking css file-->
 	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-	<div id="header-container">
-		<div>
+	<!--wrap header in full width container-->
+	<div id="header-container" class ="cotainer-fluid">
+		<div class="row">
+			<!-- Making the header span the full width of the row -->
+			<header class="col-12 text-center py-3">
 			<header>
 				<h1>List Of Inventors Killed By Their Own Inventions</h1>
 			</header>
 		</div>
 	</div>
-	<div id="main-container">
+
+<!--the main container-->
+	<div id="main-container" class="container">
+		<div class="row">
+			<!--nav sec 1/4 span width-->
+			<nav class="col-md-3">
+				<!--bootstrap list group for styling nav-->
 		<div>
 			<nav>
-				<ul>
-					<li><a href="#automotive">Automotive</a></li>
-					<li><a href="#maritime">Maritime</a></li>
-					<li><a href="#medical">Medical</a></li>
-					<li><a href="#physics">Physics</a></li>
-					<li><a href="#myths">Popular Myths and Related Stories</a></li>
+				<ul> 
+					<!-- added series of list grouping for styling with in index.html for nav link-->
+					<li><a href="#automotive"><a href="#automotive">Automotive</a></li>
+					<li><a href="#maritime"><a href="#maritime"></a>Maritime</a></li>
+					<li><a href="#medical"><a href="#medical"></a>Medical</a></li>
+					<li><a href="#physics"><a href="#physics">PhysicsPhysics</a></li>
+					<li><a href="#myths"></a><a href="#myths">Popular Myths and Related Stories</a></li>
 				</ul>
 			</nav>
-			<main>
+
+			<!--main content 1/2 width span-->
+			<main class="col-md-6">
 				<section id="intro">
 					<h2>What is this list?</h2>
 					<p>This is a list of inventors whose deaths were in some manner caused by or related to a product,
 						process, procedure, or other innovation that they invented or designed.</p>
 				</section>
+				<!--Other sections (automotive, maritme etc.)-->
+				</main>
 				<section id="automotive">
 					<h2>Automotive</h2>
 					<ul>
