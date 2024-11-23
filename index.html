@@ -42,15 +42,17 @@
 				</ul>
 			</nav>
 
-			<!--main content 1/2 width span-->
+		<!--main content section-->
 			<main class="col-md-6">
 				<section id="intro">
 					<h2>What is this list?</h2>
 					<p>This is a list of inventors whose deaths were in some manner caused by or related to a product,
 						process, procedure, or other innovation that they invented or designed.</p>
 				</section>
-				<!--Other sections (automotive, maritme etc.)-->
-				</main>
+
+				<!--sidebar section span 1/4 width-->
+				<aside class="col-md-3">
+
 				<section id="automotive">
 					<h2>Automotive</h2>
 					<ul>
@@ -186,13 +188,17 @@
 			</aside>
 		</div>
 	</div>
-	<div id="footer-container">
-		<div>
-			<footer>
+	<!--footer wrapped in full width container-->
+	<div id="footer-container" class="container-fluid">
+		<div class="row">
+			<!--Footer spanning the full width of the row-->
+			<footer class="col-12 text-center py-3">
 				&copy; Copyright 2019
 			</footer>
 		</div>
 	</div>
+
+	<!--bootsrap javascript libraries-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 		crossorigin="anonymous"></script>
